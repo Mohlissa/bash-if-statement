@@ -1,30 +1,36 @@
 ### Hi there.
 
-#The details of my two scripts are these:
+# Bash Script Assignments
+This repository contains two bash scripting which one is meant for checking the existence of a file and the second for counting the numbers of files in a directory...
 
-#Script: `assignment.sh`
+#Script1: `check_file_exists.sh`
 ###  Description
+This script checks for the existence of a file named `molissa.txt' and performs a few validations on it
 
-This script performs the following checks:
-
+### This script performs the following checks:
 - The main purpose of this script is to check if a file named molissa.txt exist.
 - The script also perform the following checks alongside:
-    1.  Shows an error message if the filename argument is empty.
-    2.  Ensures the user provides exactly one argument.
+  1. Shows an error message if the filename argument is empty.
+  2. Ensures only ONE argument is used provided.
 
-### caution: Making sure i used the file name as the argument
+# ran using ./assignment.sh molissa.txt
 
-#Script: `cloud_assignment.sh`
+
+
+#Script2: `count_files_in_directory.sh`
 ### 📝 Description
+This script counts the number of files inside the directory named cloudassignment and the path to it is/home/molissa/cloudassignment)
 
-This script performs the following checks:
-
-- The mainn purpose of this script is to count how many files are in a directory. And "directoryname" is cloudassignment..
+### This script performs the following checks:
+- Make sure that a directory path is provided as an argument.
 - The script also perform the following checks alongside:
     1.  Counts and prints the number of files in that directory using "find" command..
-    2.  Validates that a directory path is provided as an argument.
     3.  If the directory exist
 
-### caution: Making sure i take absolute path to the directory as the argument
+# ran using ./cloud_assignment.sh /home/molissa/cloudassignment
+
+# Caution
+my scripts do have execute permission
+As instructed i provided absolute path for directory arguments in script 2
 
 ### bash
