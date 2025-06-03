@@ -7,9 +7,9 @@
 
 This script performs the following checks:
 
-- The mainn purpose of this script is to check if a file named molissa.txt exist.
+- The main purpose of this script is to check if a file named molissa.txt exist.
 - The script also perform the following checks alongside:
-    1.  Checks if the filename argument is empty.
+    1.  Shows an error message if the filename argument is empty.
     2.  Ensures the user provides exactly one argument.
 
 ### caution: Making sure i used the file name as the argument

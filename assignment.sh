@@ -1,9 +1,8 @@
-#1/bin/bash
+#!/bin/bash
 
-file=$1
 
 #To check if there is a file name as an argument
-if [ -z "$file" ] 
+if [ -z "$1" ] 
 then
     echo "Please provide a filename."
     echo "filename to be provided:$1 molissa.txt"
@@ -18,12 +17,10 @@ then
     exit 1
 fi
 
-#variable assigned to the argument
-
 #To check the existence of the file
-if [ -f $file ] 
+if [ -f $1 ] 
 then
-    echo "The file $file truly exist"
+    echo "The file $1 truly exist"
 else
-    echo "The file $file does not exist"
+    echo "The file $1 does not exist"
 fi
